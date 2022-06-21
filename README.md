@@ -10,6 +10,6 @@ Lab2：動態網頁(EC2+Userdata)
 
 
 Lab3：資料庫(RDS)
-
+連結：https://github.com/EISCFCU/STUST/blob/main/Lab3_RDS.md
 
 Lab4：動態網頁+資料庫(EC2+RDS)
