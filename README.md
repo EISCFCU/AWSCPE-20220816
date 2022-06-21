@@ -9,7 +9,11 @@ https://docs.google.com/forms/d/1IAihhXTyvtPSdyGU0AbN3FmwPRNl1V7bq8SxH1dH0j0/edi
 課程代號：
 
 
-Lab0：登入你的AWS Academy
+Lab0-1：登入你的AWS Academy
+
+連結：
+
+Lab0-2：進入Sandbox
 
 連結：
 
