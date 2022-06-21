@@ -8,6 +8,7 @@ Lab1：靜態網頁(S3)
 
 Lab2：動態網頁(EC2+Userdata)
 
+連結：https://github.com/EISCFCU/STUST/blob/main/Lab2_EC2_Userdata.md
 
 Lab3：資料庫(RDS)
 
