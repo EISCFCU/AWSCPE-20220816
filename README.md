@@ -3,7 +3,7 @@
 
 Lab1：靜態網頁(S3)
 
-
+連結：https://github.com/EISCFCU/STUST/blob/main/Lab1_Static_Web.md
 
 Lab2：動態網頁(EC2+Userdata)
 
