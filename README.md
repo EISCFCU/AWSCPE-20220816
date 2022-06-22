@@ -1,4 +1,5 @@
-# 南台科技大學CPE考照班(June 22-29, 2022)
+# 2022 南台科技大學AWS原廠培訓課程(CPE)
+
 
 課前表單：
 
@@ -6,6 +7,7 @@ https://docs.google.com/forms/d/1IAihhXTyvtPSdyGU0AbN3FmwPRNl1V7bq8SxH1dH0j0/edi
 
 實作環境：AWS Cloud Foundation(Sandbox)
 
+課程代號：21496
 
 Lab1：靜態網頁(S3)
 
