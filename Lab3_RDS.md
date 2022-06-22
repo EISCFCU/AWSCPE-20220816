@@ -12,117 +12,125 @@
 
 ![image](https://user-images.githubusercontent.com/103306835/163802973-d8e2b636-f525-43f6-92cd-ffab8469f31b.png)
 
-1.點選[RDS]
+# Step1：新增資料庫引擎
+
+1-1.點選[RDS]
 
 ![image](https://user-images.githubusercontent.com/103306835/163803017-e1549f7c-5797-45a9-b95b-9d983d68f74a.png)
 
-2.點選[Create database]
+1-2.點選[Create database]
 
 ![image](https://user-images.githubusercontent.com/103306835/163803047-09733678-90da-4267-9647-d5de43f809f9.png)
 
-3.選擇[Standard create]
+1-3.選擇[Standard create]
 
 ![image](https://user-images.githubusercontent.com/103306835/163803092-e27c6bfd-f82f-484a-a42d-922539a348a4.png)
 
-4.點選[MariaDB]
+1-4.選擇[MYSQL]
 
-![image](https://user-images.githubusercontent.com/103306835/163803434-ecadcb9d-c670-48d4-aa4d-84ad7764bda5.png)
+![image](https://user-images.githubusercontent.com/103306835/174926048-c19567a6-5af9-4754-a07b-a237bce1dbfb.png)
 
-5.點選[Free tier]
+1-5.點選[免費方案]
 
-![image](https://user-images.githubusercontent.com/103306835/163803458-9381f738-449e-40a4-a33f-8ada024320c9.png)
+![image](https://user-images.githubusercontent.com/103306835/174926081-eca6082d-9892-43f8-b13c-6dafc716a4bc.png)
 
-6.輸入[Master password]
+# Step2：設定帳號密碼
 
-![image](https://user-images.githubusercontent.com/103306835/163803490-85aa8c9e-91ef-4e07-8c36-093c38a77057.png)
+2-1.設定資料庫與帳密
 
-7.點選[Create new VPC]與[Create new DB Subnet Group]
+![image](https://user-images.githubusercontent.com/103306835/174926144-aa71531c-3760-436e-aef2-c08ef96098f7.png)
 
-![image](https://user-images.githubusercontent.com/103306835/163803552-e2d51cc8-cf81-4ccd-8bd2-fce73b71c926.png)
+2-2.選擇Default VPC
 
-8.點選[YES]
+![image](https://user-images.githubusercontent.com/103306835/174926197-d6c88c7b-8147-4b8b-bfb5-533ea82b4d9a.png)
 
-![image](https://user-images.githubusercontent.com/103306835/163803587-87e11f82-e3e0-4a95-93a0-276f6390bf13.png)
+2-3.展開[其他組態]
 
-9.選擇[Password authentication]
+![image](https://user-images.githubusercontent.com/103306835/174926234-281b0b69-910a-4294-a6d3-072077e7fd74.png)
 
-![image](https://user-images.githubusercontent.com/103306835/163803616-4bb8530c-d9bf-49a0-97e9-d869ce4d88ca.png)
+2-4.資料庫名稱設定為lab
 
-10.點選[Create database]
+![image](https://user-images.githubusercontent.com/103306835/174926277-7d166d07-25f8-466b-a949-72eca5336a7d.png)
 
-![image](https://user-images.githubusercontent.com/103306835/163803655-d7b37a11-acde-42d2-b2eb-bf147814c053.png)
+2-5.取消勾選[啟用自動備份]與[啟用加密]
 
-11.等待database status為Available
+![image](https://user-images.githubusercontent.com/103306835/174926296-2dd11b9e-17c5-4ce0-b1c6-78e2f4ea853b.png)
 
-![image](https://user-images.githubusercontent.com/103306835/163805846-ff2a4e5a-22b9-4274-bf4d-b36cc501bba0.png)
+2-6.點選[建立資料庫]
 
-12.點選[database-1]
+![image](https://user-images.githubusercontent.com/103306835/174926323-ccd1a9bf-d26b-435b-8aab-a5433f6a2da0.png)
 
-![image](https://user-images.githubusercontent.com/103306835/163805884-d51d092d-bef0-4069-a411-e24d53ed1ef5.png)
+2-7.等待建立
 
-13.點選Type為[EC2 Security Group-Inbound]
-更改Security group 輸入規則Port，預設RDS只有EC2可以連進來
-![image](https://user-images.githubusercontent.com/103306835/163805949-dae8beaa-858c-40a5-bbf2-462373723b19.png)
+![image](https://user-images.githubusercontent.com/103306835/174926353-0ff68726-c3e2-4eb4-9527-d71c4be41459.png)
 
-14.點選輸入規則
+# Step3：開啟sqlectron
 
-![image](https://user-images.githubusercontent.com/103306835/163805981-32c3c012-a487-4851-ac25-be143120fecc.png)
+3-1.下載SQLECTRON
+連結：[https://dev.mysql.com/downloads/file/?id=497505](https://sqlectron.github.io/)
+![image](https://user-images.githubusercontent.com/103306835/174924724-a297249c-39c2-4e76-85b5-a11428a07f23.png)
 
+3-2.點選[Download GUI]
 
-15.複製Endpoint(資料庫連線網址)
+![image](https://user-images.githubusercontent.com/103306835/174925017-74604d28-cea9-41c6-8cfe-e5c98657b2ba.png)
 
-![image](https://user-images.githubusercontent.com/103306835/163806013-ea73e308-5de7-49c3-96c7-73f7b0df2138.png)
+3-3.選擇合適的版本下載
 
-16.下載MYSQL使用介面
-連結：https://dev.mysql.com/downloads/file/?id=497505
-![image](https://user-images.githubusercontent.com/103306835/163809077-0a88f99b-07fc-4dbf-aca0-a851132cee50.png)
+![image](https://user-images.githubusercontent.com/103306835/174925057-f2f2c93d-0cbc-4f16-90a0-a1fac8bee52a.png)
 
-17.點選[Next]
+3-4.點選[Add]
 
-![image](https://user-images.githubusercontent.com/103306835/163809112-522455c0-3e7d-4fc1-8f54-5f61db849ea8.png)
+![image](https://user-images.githubusercontent.com/103306835/174925238-05dfdadc-6e89-456d-808e-84cbad1f3a38.png)
 
-18.點選[Next]
+3-5.回到RDS 點選資料庫
 
-![image](https://user-images.githubusercontent.com/103306835/163809166-be1bbc64-e94a-4b71-931a-52fff0f1a641.png)
+![image](https://user-images.githubusercontent.com/103306835/174925273-d94118ee-f81d-491d-849b-e83e402bed33.png)
 
-19.點選[Next]
+3-6.點選[VPC安全群組]
 
-![image](https://user-images.githubusercontent.com/103306835/163809247-f4e67394-6fa1-4a27-abfa-80946c92178c.png)
+![image](https://user-images.githubusercontent.com/103306835/174925329-5683913e-8371-4bfb-9bbc-eba72ccb1fc3.png)
 
-20.點選[Install]
+3-7.點選[傳入規則]
 
-![image](https://user-images.githubusercontent.com/103306835/163809279-8f617773-f428-452e-b066-8ea07b289ff1.png)
+![image](https://user-images.githubusercontent.com/103306835/174925390-9eb38751-513f-47d8-941d-441e3faf631d.png)
 
-21.點選[Finish]
+3-8.點選[編輯傳入規則]
 
-![image](https://user-images.githubusercontent.com/103306835/163809326-94a68b71-5d0c-4969-ac1a-e42ab997a380.png)
+![image](https://user-images.githubusercontent.com/103306835/174925424-5558b43e-3803-4f93-b256-1dc39e04e1a7.png)
 
+3-9.點選[刪除]
 
-# 開啟MySQL Workbench
+![image](https://user-images.githubusercontent.com/103306835/174925517-ccbd497d-94ea-4d5f-814e-4811ff8188d9.png)
 
-1.點選[Database]
+3-10.點選[新增規則]
 
-![image](https://user-images.githubusercontent.com/103306835/163809386-0a82047b-3b45-48b2-b988-88466b2ba8d6.png)
-
-
-2.輸入Hostname
-
-![image](https://user-images.githubusercontent.com/103306835/163809421-05a17d91-f490-4d05-85f8-686775ab3bbd.png)
-
-3.點選[Store in Vault]
-
-![image](https://user-images.githubusercontent.com/103306835/163809455-c94a8738-1d7b-49c1-9707-52a8d75d7f3e.png)
-
-4.輸入密碼
-
-![image](https://user-images.githubusercontent.com/103306835/163809509-2ee56344-a111-4fe4-8417-a35b34e16f36.png)
-
-5.點選OK
-
-![image](https://user-images.githubusercontent.com/103306835/163809557-d5a48f9f-5633-4ffe-8063-f3507b806f0b.png)
+![image](https://user-images.githubusercontent.com/103306835/174925548-601f4cfb-bf63-4e9d-9e57-d1ba308236b0.png)
 
 
-6.結果呈現
+3-11.設定MYSQL類型；來源：0.0.0.0/0
 
-![image](https://user-images.githubusercontent.com/103306835/163809599-279da6a6-2f29-40ff-8ac3-c36087f5836f.png)
+![image](https://user-images.githubusercontent.com/103306835/174925592-b6639c01-ddc0-4e93-9b26-611dab6f0f4c.png)
 
+3-12.點選[儲存規則]
+
+![image](https://user-images.githubusercontent.com/103306835/174925617-349a2e17-a93b-49df-953d-2a68bca69e01.png)
+
+# Step4：輸入連線資訊
+
+4-1.輸入連線資訊
+
+![image](https://user-images.githubusercontent.com/103306835/174925811-4fcef37d-c5e3-45f7-a573-19fc49266add.png)
+
+4-2.點選[Save]
+
+![image](https://user-images.githubusercontent.com/103306835/174925843-589b683b-410a-4623-86b6-a096284c0341.png)
+
+# Step5：進入資料庫
+
+5-1.點選[Connect]
+
+![image](https://user-images.githubusercontent.com/103306835/174925896-9dbf6207-5c6f-434e-8d75-3240c459840b.png)
+
+5-2.成功登入
+
+![image](https://user-images.githubusercontent.com/103306835/174925910-31590e37-b595-45bb-b3dc-3cd64e59a951.png)
