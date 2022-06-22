@@ -40,7 +40,7 @@
 
 ![image](https://user-images.githubusercontent.com/103306835/163395671-818f8b16-e514-458c-b277-b9eb24d255dd.png)
 
-3.選擇wordpress.aws.sh(檔案連結:https://github.com/EISCFCU/wordpress_on_aws_EC2/blob/main/wordpress.aws.sh)
+3.選擇wordpress.aws.sh(檔案連結:https://github.com/EISCFCU/STUST/blob/main/Lab2_wordpress.aws.sh)
 
 ![image](https://user-images.githubusercontent.com/103306835/163395733-1b9e1d90-54e5-4c63-b50b-8def15d500b6.png)
 
@@ -85,7 +85,7 @@ Userdata裡的指令
 
 ![image](https://user-images.githubusercontent.com/103306835/163396460-13b61da2-316a-4465-a00b-a53c46f901e9.png)
 
-3.新增Type=HTTP,HTTPS
+3.新增Type=HTTP
 
 ![image](https://user-images.githubusercontent.com/103306835/163396564-c2d616fc-dd0e-4697-a0d8-3d4f0673e554.png)
 
