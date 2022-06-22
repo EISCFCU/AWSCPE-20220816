@@ -9,6 +9,10 @@ https://docs.google.com/forms/d/1IAihhXTyvtPSdyGU0AbN3FmwPRNl1V7bq8SxH1dH0j0/edi
 
 課程代號：21496
 
+註冊並登入AWS Academy
+
+連結：
+
 Lab1：靜態網頁(S3)
 
 連結：https://github.com/EISCFCU/STUST/blob/main/Lab1_Static_Web.md
