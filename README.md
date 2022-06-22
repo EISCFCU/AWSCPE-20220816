@@ -11,7 +11,7 @@ https://docs.google.com/forms/d/1IAihhXTyvtPSdyGU0AbN3FmwPRNl1V7bq8SxH1dH0j0/edi
 
 註冊並登入AWS Academy
 
-連結：
+連結：https://github.com/EISCFCU/STUST/blob/main/Lab0_%E9%80%B2%E5%85%A5AWS%20Academy.md
 
 Lab1：靜態網頁(S3)
 
