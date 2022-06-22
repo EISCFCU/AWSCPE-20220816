@@ -1,7 +1,4 @@
 # 使用EC2搭配自動化指令架設Wordpress
-PeggyWang 20220414 Update
-
-Contact mail:eiscfcu@gmail.com
 
 # 步驟1：新增EC2執行個體
 1.搜尋EC2
