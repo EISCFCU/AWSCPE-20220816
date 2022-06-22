@@ -10,7 +10,7 @@
 
 # 實施步驟
 
-![image](https://user-images.githubusercontent.com/103306835/163802973-d8e2b636-f525-43f6-92cd-ffab8469f31b.png)
+![image](https://user-images.githubusercontent.com/103306835/174926615-7b29f3b1-3db5-412d-a479-1b06fdd59d37.png)
 
 # Step1：新增資料庫引擎
 
