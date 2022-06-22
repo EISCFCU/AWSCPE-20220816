@@ -5,8 +5,7 @@
 
 # 使用資源(請先至下載並解壓縮)
 
-1.範例網頁資料連結：https://github.com/EISCFCU/DYU/blob/main/wildrydes-site-main.zip
-
+1.範例網頁資料連結：https://github.com/EISCFCU/STUST/blob/main/wildrydes-site-master.zip
 
 ![image](https://user-images.githubusercontent.com/103306835/172282220-a0910688-7052-4f5f-8db7-151ad27f84fa.png)
 
