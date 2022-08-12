@@ -3,7 +3,7 @@
 
 課前表單：
 
-https://docs.google.com/forms/d/1IAihhXTyvtPSdyGU0AbN3FmwPRNl1V7bq8SxH1dH0j0/edit
+https://forms.gle/q7DAmgZnj1z9eE3o8
 
 實作環境：AWS Cloud Foundation(Sandbox)
 
