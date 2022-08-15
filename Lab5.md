@@ -12,7 +12,7 @@
 
 
 # 使用環境(請先Start Lab)
-AWS Academy Learner Lab-Foundation Services(課程代碼：19091)
+AWS Academy Learner Lab-Foundation Services
 
 AWS Academy登入連結：https://awsacademy.instructure.com/login/canvas
 
