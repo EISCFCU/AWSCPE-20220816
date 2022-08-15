@@ -1,10 +1,14 @@
 # 使用EC2服務建置動態網站
 
-# 實施環境
 
 # 實施架構
 
+![image](https://user-images.githubusercontent.com/103306835/184656923-0d4522db-d9f5-438f-a62b-4192e6e53c61.png)
+
+
 # 實施流程
+
+![image](https://user-images.githubusercontent.com/103306835/184657309-ae916fad-24e6-474a-a8a8-9086e49ca8a6.png)
 
 1.選擇EC2
 
