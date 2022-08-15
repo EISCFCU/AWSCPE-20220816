@@ -1,8 +1,5 @@
 # 2022 高雄亞灣AWS原廠培訓認證班(CPE)
 
-
-課前表單：
-
 https://forms.gle/q7DAmgZnj1z9eE3o8
 
 實作環境：AWS Academy Learner Lab - Foundation Services
