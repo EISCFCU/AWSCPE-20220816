@@ -5,9 +5,9 @@
 
 https://forms.gle/q7DAmgZnj1z9eE3o8
 
-實作環境：AWS Cloud Foundation(Sandbox)
+實作環境：AWS Academy Learner Lab - Foundation Services
 
-課程代號：待確認
+課程代號：24390
 
 註冊並登入AWS Academy
 
