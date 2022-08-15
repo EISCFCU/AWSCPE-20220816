@@ -43,9 +43,9 @@
 
 ![image](https://user-images.githubusercontent.com/103306835/166851232-44c31966-fe2f-481d-a178-684eaafad32e.png)
 
-6.選擇Default VPC->選擇Subnet=us-east-1a->選擇security group=default
+6.選擇Default VPC->選擇Subnet=us-east-1a->選擇Create Security group;NAME=Web-SG;Description=web security group
 
-![image](https://user-images.githubusercontent.com/103306835/166851279-7225c382-71a6-4273-b954-93951cf3dcfa.png)
+![image](https://user-images.githubusercontent.com/103306835/184645498-d4e5c004-b18a-4f5d-8b2b-a9b6fc8f76e9.png)
 
 7.選擇IAM
 
