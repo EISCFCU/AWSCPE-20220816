@@ -28,3 +28,7 @@ Lab3：資料庫(RDS)
 Lab4：動態網頁+資料庫(EC2+RDS)
 
 連結：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab4_EC2_RDS.md
+
+Lab5：無伺服器架構實作
+
+連結：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab5.md
