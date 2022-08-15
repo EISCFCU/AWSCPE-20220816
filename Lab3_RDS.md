@@ -2,8 +2,9 @@
 
 建立雲端資料庫(MySQLDB)
 
+# 目前環境架構
 
-# 實施架構
+# 預期實施架構
 
 ![image](https://user-images.githubusercontent.com/103306835/163801264-6e21b6ee-5fd6-4d29-9299-ce325e50b463.png)
 
@@ -12,125 +13,92 @@
 
 ![image](https://user-images.githubusercontent.com/103306835/174926615-7b29f3b1-3db5-412d-a479-1b06fdd59d37.png)
 
-# Step1：新增資料庫引擎
+# Step1:建立雲端資料庫的Security group
 
-1-1.點選[RDS]
+1-1.點選左側的Security Group
 
-![image](https://user-images.githubusercontent.com/103306835/163803017-e1549f7c-5797-45a9-b95b-9d983d68f74a.png)
+![image](https://user-images.githubusercontent.com/103306835/184651053-52c5d6c3-846f-4873-9bf1-ece6e3107416.png)
 
-1-2.點選[Create database]
+1-2.點選[Create Security group]
 
-![image](https://user-images.githubusercontent.com/103306835/163803047-09733678-90da-4267-9647-d5de43f809f9.png)
+![image](https://user-images.githubusercontent.com/103306835/184651242-27c939a0-455e-43c7-894e-a6717dd7da54.png)
 
-1-3.選擇[Standard create]
+1-3.Security Group Name=db-sg;Description=database security group;選擇預設的VPC
 
-![image](https://user-images.githubusercontent.com/103306835/163803092-e27c6bfd-f82f-484a-a42d-922539a348a4.png)
+![image](https://user-images.githubusercontent.com/103306835/184651696-cb8df758-c71b-47f2-8146-ebb9c0a6fdc4.png)
 
-1-4.選擇[MYSQL]
+1-4.點選[Add Rule]
 
-![image](https://user-images.githubusercontent.com/103306835/174926048-c19567a6-5af9-4754-a07b-a237bce1dbfb.png)
+![image](https://user-images.githubusercontent.com/103306835/184651894-1ce8923e-9534-4fb6-b190-f370501690cb.png)
 
-1-5.點選[免費方案]
+1-5.Type選http；Source選擇web-sg
 
-![image](https://user-images.githubusercontent.com/103306835/174926081-eca6082d-9892-43f8-b13c-6dafc716a4bc.png)
+![image](https://user-images.githubusercontent.com/103306835/184651977-fb0f41bc-beb4-4894-a89a-ba4048aa9d99.png)
 
-# Step2：設定帳號密碼
+1-6.點選[Create Security Group]
 
-2-1.設定資料庫與帳密
-
-![image](https://user-images.githubusercontent.com/103306835/174926144-aa71531c-3760-436e-aef2-c08ef96098f7.png)
-
-2-2.選擇Default VPC
-
-![image](https://user-images.githubusercontent.com/103306835/174926197-d6c88c7b-8147-4b8b-bfb5-533ea82b4d9a.png)
-
-2-3.展開[其他組態]
-
-![image](https://user-images.githubusercontent.com/103306835/174926234-281b0b69-910a-4294-a6d3-072077e7fd74.png)
-
-2-4.資料庫名稱設定為lab
-
-![image](https://user-images.githubusercontent.com/103306835/174926277-7d166d07-25f8-466b-a949-72eca5336a7d.png)
-
-2-5.取消勾選[啟用自動備份]與[啟用加密]
-
-![image](https://user-images.githubusercontent.com/103306835/174926296-2dd11b9e-17c5-4ce0-b1c6-78e2f4ea853b.png)
-
-2-6.點選[建立資料庫]
-
-![image](https://user-images.githubusercontent.com/103306835/174926323-ccd1a9bf-d26b-435b-8aab-a5433f6a2da0.png)
-
-2-7.等待建立
-
-![image](https://user-images.githubusercontent.com/103306835/174926353-0ff68726-c3e2-4eb4-9527-d71c4be41459.png)
-
-# Step3：開啟sqlectron
-
-3-1.下載SQLECTRON
-連結：[https://dev.mysql.com/downloads/file/?id=497505](https://sqlectron.github.io/)
-![image](https://user-images.githubusercontent.com/103306835/174924724-a297249c-39c2-4e76-85b5-a11428a07f23.png)
-
-3-2.點選[Download GUI]
-
-![image](https://user-images.githubusercontent.com/103306835/174925017-74604d28-cea9-41c6-8cfe-e5c98657b2ba.png)
-
-3-3.選擇合適的版本下載
-
-![image](https://user-images.githubusercontent.com/103306835/174925057-f2f2c93d-0cbc-4f16-90a0-a1fac8bee52a.png)
-
-3-4.點選[Add]
-
-![image](https://user-images.githubusercontent.com/103306835/174925238-05dfdadc-6e89-456d-808e-84cbad1f3a38.png)
-
-3-5.回到RDS 點選資料庫
-
-![image](https://user-images.githubusercontent.com/103306835/174925273-d94118ee-f81d-491d-849b-e83e402bed33.png)
-
-3-6.點選[VPC安全群組]
-
-![image](https://user-images.githubusercontent.com/103306835/174925329-5683913e-8371-4bfb-9bbc-eba72ccb1fc3.png)
-
-3-7.點選[傳入規則]
-
-![image](https://user-images.githubusercontent.com/103306835/174925390-9eb38751-513f-47d8-941d-441e3faf631d.png)
-
-3-8.點選[編輯傳入規則]
-
-![image](https://user-images.githubusercontent.com/103306835/174925424-5558b43e-3803-4f93-b256-1dc39e04e1a7.png)
-
-3-9.點選[刪除]
-
-![image](https://user-images.githubusercontent.com/103306835/174925517-ccbd497d-94ea-4d5f-814e-4811ff8188d9.png)
-
-3-10.點選[新增規則]
-
-![image](https://user-images.githubusercontent.com/103306835/174925548-601f4cfb-bf63-4e9d-9e57-d1ba308236b0.png)
+![image](https://user-images.githubusercontent.com/103306835/184652100-08e885ae-a0c7-4d13-97bb-3bc609212aec.png)
 
 
-3-11.設定MYSQL類型；來源：0.0.0.0/0
+# Step2:建立雲端資料庫
 
-![image](https://user-images.githubusercontent.com/103306835/174925592-b6639c01-ddc0-4e93-9b26-611dab6f0f4c.png)
+2-1.選擇 Databases->點擊 Create database
 
-3-12.點選[儲存規則]
+![image](https://user-images.githubusercontent.com/103306835/166851850-0ac75d84-0c5a-4100-980c-594c16f98359.png)
 
-![image](https://user-images.githubusercontent.com/103306835/174925617-349a2e17-a93b-49df-953d-2a68bca69e01.png)
+2-2.選擇 MySQL
 
-# Step4：輸入連線資訊
+![image](https://user-images.githubusercontent.com/103306835/166851863-0d74cad0-fafa-46d9-93ed-97875242100f.png)
 
-4-1.輸入連線資訊
+2-3.選擇Free Tier
 
-![image](https://user-images.githubusercontent.com/103306835/174925811-4fcef37d-c5e3-45f7-a573-19fc49266add.png)
+![image](https://user-images.githubusercontent.com/103306835/166851891-d4bdc05f-55ae-41f1-ae49-ef24dd1a9894.png)
 
-4-2.點選[Save]
+2-4.設定資料庫
 
-![image](https://user-images.githubusercontent.com/103306835/174925843-589b683b-410a-4623-86b6-a096284c0341.png)
+'''
+DB instance identifier ：lab-db
+Master username：main
+Master password：lab-password
+Confirm password：lab-password
+'''
 
-# Step5：進入資料庫
+![image](https://user-images.githubusercontent.com/103306835/166851904-f63ad32d-8a37-4119-92ec-c4d562fa20e9.png)
 
-5-1.點選[Connect]
+2-5.Burstable classes (includes t classes)->選擇 db.t3.micro
 
-![image](https://user-images.githubusercontent.com/103306835/174925896-9dbf6207-5c6f-434e-8d75-3240c459840b.png)
+![image](https://user-images.githubusercontent.com/103306835/166851986-10cbb5d4-3c2b-46c4-9d6b-9f68a8c4ef50.png)
 
-5-2.成功登入
+2-6.Storage type：General Purpose (SSD)->Allocated storage：20
 
-![image](https://user-images.githubusercontent.com/103306835/174925910-31590e37-b595-45bb-b3dc-3cd64e59a951.png)
+![image](https://user-images.githubusercontent.com/103306835/166852007-4323f0ce-6fc9-4889-8e67-e156baf38cf7.png)
+
+2-7.Virtual Private Cloud (VPC)：Defalt VPC
+
+![image](https://user-images.githubusercontent.com/103306835/166852047-11c77aaf-9349-4d51-bad4-39e8d06a38ff.png)
+
+2-8.DB Security Group (資料庫安全組)->選擇db-sg
+
+![image](https://user-images.githubusercontent.com/103306835/184650770-926f3c1e-3ec3-4112-ab64-366566bd1779.png)
+
+2-9.選擇us-east-1a
+
+![image](https://user-images.githubusercontent.com/103306835/184650794-8848b88b-5277-4265-a0ee-c38d90b26c2e.png)
+
+
+2-10.展開  Additional configuration (其他配置)->Initial database name：lab
+
+![image](https://user-images.githubusercontent.com/103306835/166852134-8c733217-343b-47f2-a461-3578545457c7.png)
+
+2-11.資料庫備份監控設定
+
+取消選取 Enable automatic backups (啟用自動備份)
+
+取消選取 Enable Enhanced monitoring (啟用增強監控)
+
+2-11.點擊 Create database (創建數據庫)
+
+![image](https://user-images.githubusercontent.com/103306835/166852184-a3222568-0874-4fec-a350-eed970b6293c.png)
+
+
+直到狀態變為Modifying（正在修改）或 Available（可用）
