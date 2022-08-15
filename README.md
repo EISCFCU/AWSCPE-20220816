@@ -11,24 +11,16 @@ https://forms.gle/q7DAmgZnj1z9eE3o8
 
 註冊並登入AWS Academy
 
-連結：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab0_%E9%80%B2%E5%85%A5AWS%20Academy.md
 
-Lab1：靜態網站(S3)
+Lab1-1：靜態網站(S3)
 
-連結：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab1_Static_Web.md
+Lab1-2：生命週期設定(S3)
 
-Lab2：動態網站(使用lightsail一鍵部署wordpress)
-
-連結：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab2_lightsail.md
+Lab2：動態網站(EC2)
 
 Lab3：資料庫(RDS)
 
-連結：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab3_RDS.md
-
-Lab4：動態網站+資料庫(EC2+RDS)
-
-連結：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab4_EC2_RDS.md
+Lab4：動態網站與資料庫繫結(EC2+RDS)
 
 Lab5：無伺服器架構實作
 
-連結：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab5.md
