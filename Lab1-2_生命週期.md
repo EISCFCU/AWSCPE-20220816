@@ -1,4 +1,4 @@
-#
+#資料存儲生命週期設定
 
 
 # 情境
@@ -12,11 +12,6 @@
 
 ![image](https://user-images.githubusercontent.com/103306835/184654332-bf4e88ed-3814-452f-82ff-e90a10cfc74e.png)
 
-
-# 實施流程
-
-
-#
 
 1.點選fcu-20210302(名稱自訂)的Bucket name
 
