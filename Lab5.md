@@ -16,7 +16,6 @@ AWS Academy Learner Lab-Foundation Services
 
 AWS Academy登入連結：https://awsacademy.instructure.com/login/canvas
 
-如何進入Learner Lab，請參考：https://github.com/EISCFCU/ntue_cloud-database/blob/main/Quick%20Lab%230%E9%80%B2%E5%85%A5AWS%20Academy.md
 
 # 使用資源(請先下載)
 
