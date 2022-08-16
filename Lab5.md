@@ -46,6 +46,8 @@ AWS Academy登入連結：https://awsacademy.instructure.com/login/canvas
 
 3.lambda.zip：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/s3-csv-trans-cf42bb56-a71d-49da-961d-684300dea41a.zip
 
+https://s3-o-20220816.s3.amazonaws.com/s3-csv-trans-cf42bb56-a71d-49da-961d-684300dea41a.zip
+
 ![image](https://user-images.githubusercontent.com/103306835/167975240-880be2da-44b8-4036-af1b-f4e56ccf6e28.png)
 
 
