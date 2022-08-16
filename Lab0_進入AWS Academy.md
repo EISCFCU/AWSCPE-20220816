@@ -2,7 +2,7 @@
 
 1.至信箱收信(表單填寫的Mail) 
 
-信件主旨：Course Invitation(課號：24390)
+信件主旨：Course Invitation(課號：24390、24389)
 
 ![image](https://user-images.githubusercontent.com/103306835/172279028-29f7fcf7-ce5a-452f-a8b2-a0e53f3aac55.png)
 
