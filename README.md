@@ -14,7 +14,7 @@ Lab2：動態網站(EC2)：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/
 
 Lab3：資料庫(RDS)：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab3_%E8%B3%87%E6%96%99%E5%BA%AB.md
 
-Lab4：動態網站與資料庫繫結(EC2+RDS)
+Lab4：動態網站與資料庫繫結(EC2+RDS)：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab4_EC2_RDS.md
 
 Lab5：無伺服器架構實作
 
