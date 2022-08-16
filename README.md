@@ -1,8 +1,8 @@
 # 2022 高雄亞灣AWS原廠培訓認證班(CPE)
 
-實作環境：AWS Academy Learner Lab - Foundation Services
+實作環境：AWS Academy Learner Lab - Foundation Services(24390)
 
-課程代號：24390
+課程代號：24390、24389
 
 Lab0：註冊並登入AWS Academy
 
