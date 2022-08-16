@@ -12,7 +12,7 @@ Lab1-2：生命週期設定(S3)：https://github.com/EISCFCU/AWSCPE-20220816/blo
 
 Lab2：動態網站(EC2)：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab2_%E5%8B%95%E6%85%8B%E7%B6%B2%E7%AB%99.md
 
-Lab3：資料庫(RDS)
+Lab3：資料庫(RDS)：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab3_%E8%B3%87%E6%96%99%E5%BA%AB.md
 
 Lab4：動態網站與資料庫繫結(EC2+RDS)
 
