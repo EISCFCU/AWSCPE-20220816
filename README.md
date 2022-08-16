@@ -8,7 +8,7 @@ Lab0：註冊並登入AWS Academy：https://github.com/EISCFCU/AWSCPE-20220816/b
 
 Lab1-1：靜態網站(S3)：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab1-1_%E9%9D%9C%E6%85%8B%E7%B6%B2%E7%AB%99.md
 
-Lab1-2：生命週期設定(S3)
+Lab1-2：生命週期設定(S3)：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/Lab1-2_%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F.md
 
 Lab2：動態網站(EC2)
 
