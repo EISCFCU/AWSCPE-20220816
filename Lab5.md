@@ -39,7 +39,7 @@ AWS Academy登入連結：https://awsacademy.instructure.com/login/canvas
 ![image](https://user-images.githubusercontent.com/103306835/167973456-485b1160-8c1f-49a7-96b2-e061cd966c9c.png)
 
 
-2.csv檔：https://github.com/EISCFCU/ntue_cloud-database/blob/main/product_sale.csv
+2.csv檔：https://github.com/EISCFCU/AWSCPE-20220816/blob/main/product_sale.csv
 
 ![image](https://user-images.githubusercontent.com/103306835/167974685-38cd4e04-5d51-4f16-a0e3-8990c2e3b567.png)
 
