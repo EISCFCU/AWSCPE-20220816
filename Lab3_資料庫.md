@@ -31,9 +31,9 @@
 
 ![image](https://user-images.githubusercontent.com/103306835/184651894-1ce8923e-9534-4fb6-b190-f370501690cb.png)
 
-1-5.Type選http；Source選擇web-sg
+1-5.Type選Mysql；Source選擇web-sg
 
-![image](https://user-images.githubusercontent.com/103306835/184651977-fb0f41bc-beb4-4894-a89a-ba4048aa9d99.png)
+![image](https://user-images.githubusercontent.com/103306835/192962911-aa708a77-4050-497c-a064-30f912699a80.png)
 
 1-6.點選[Create Security Group]
 
