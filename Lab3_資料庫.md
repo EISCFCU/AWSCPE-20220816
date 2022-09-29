@@ -2,8 +2,6 @@
 
 建立雲端資料庫(MySQLDB)
 
-# 目前環境架構
-
 # 預期實施架構
 
 ![image](https://user-images.githubusercontent.com/103306835/163801264-6e21b6ee-5fd6-4d29-9299-ce325e50b463.png)
